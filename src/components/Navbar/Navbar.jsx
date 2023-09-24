@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 py-2 px-6">
+    <div className="navbar bg-base-100 p-12">
       <div className="flex-1">
         <img
           href="#"
@@ -13,7 +13,7 @@ const Navbar = () => {
         />
       </div>
       <div className="flex-none">
-        <ul className="flex px-3 gap-12">
+        <ul className="flex px-3 gap-4 md:gap-8 lg:gap-12">
           <li>
             <NavLink
               to="/"
