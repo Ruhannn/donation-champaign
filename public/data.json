@@ -1,0 +1,122 @@
+[
+  {
+    "Picture": "https://i.ibb.co/gSw366y/Patient-Support-Services-Medical-and-Mental-Health-Support-STRIDE-CHC-1-2-980x653.jpg",
+    "Title": "Supporting Medical Care",
+    "Category": "Health",
+    "Category_bg": "#0052FF",
+    "Card_bg": "#0052FF15",
+    "Text_bg": "#0052FF",
+    "Description": "Help provide critical medical aid to those in need. Your donation can save lives and ensure access to healthcare for the less fortunate.",
+    "Price": "342"
+  },
+  {
+    "Picture": "https://i.ibb.co/JKBbYRH/Empower.jpg",
+    "Title": "Empower Young Minds",
+    "Category": "Education",
+    "Category_bg": "#FF444A20",
+    "Card_bg": "#FF444A15",
+    "Text_bg": "#FF444A",
+    "Description": "Empower the next generation through education. Your support provides books, school supplies, and scholarships for bright futures.",
+    "Price": "432"
+  },
+  {
+    "Picture": "https://i.ibb.co/NLvVnyQ/75.webp",
+    "Title": "Warmth in Every Stitch",
+    "Category": "Clothing",
+    "Category_bg": "#79C23F20",
+    "Card_bg": "#79C23F15",
+    "Text_bg": "#79C23F",
+    "Description": "Spread warmth and comfort with clothing donations. Your contribution ensures that no one goes without essential clothing.",
+    "Price": "455"
+  },
+  {
+    "Picture": "https://i.ibb.co/M8M2pT3/nu-skin-implementa-mejoras-en-el-programa-nourish-the-children-1605794093.jpg",
+    "Title": "Nourish the Hungry",
+    "Category": "Food",
+    "Category_bg": "#F8714720",
+    "Card_bg": "#F8714715",
+    "Text_bg": "#F87147",
+    "Description": "Combat hunger with your generosity. Your donations go toward providing meals and groceries to those in need.",
+    "Price": "434"
+  },
+  {
+    "Picture": "https://i.ibb.co/zRW7dvd/responsive-big-webp-v-Oq-BP-Rsb1x-EQUeko1-EWMCkcsfuz1-K4-PAuhhsf2-ZDbw.webp",
+    "Title": "Healthy Futures Fund",
+    "Category": "Health",
+    "Category_bg": "#0052FF",
+    "Card_bg": "#0052FF15",
+    "Text_bg": "#0052FF",
+    "Description": "Invest in a healthier future for underserved communities. Contribute to medical supplies, check-ups, and health education programs.",
+    "Price": "756"
+  },
+  {
+    "Picture": "https://i.ibb.co/5kJCKS0/png-1-992x744.jpg",
+    "Title": "Education Equality Drive",
+    "Category": "Education",
+    "Category_bg": "#FF444A20",
+    "Card_bg": "#FF444A15",
+    "Text_bg": "#FF444A",
+    "Description": "Bridge the educational gap. Your donations ensure that every child has access to quality education, unlocking their potential.",
+    "Price": "435"
+  },
+  {
+    "Picture": "https://i.ibb.co/qd4Q62Y/HVDonation.jpg",
+    "Title": "Dress for Success",
+    "Category": "Clothing",
+    "Category_bg": "#79C23F20",
+    "Card_bg": "#79C23F15",
+    "Text_bg": "#79C23F",
+    "Description": "Support individuals in need of professional attire. Your donation helps build confidence and career opportunities.",
+    "Price": "834"
+  },
+  {
+    "Picture": "https://i.ibb.co/ryPWyKg/185535-152.jpg",
+    "Title": "Food for All",
+    "Category": "Food",
+    "Category_bg": "#F8714720",
+    "Card_bg": "#F8714715",
+    "Text_bg": "#F87147",
+    "Description": "Join us in the fight against food insecurity. Your contribution ensures that no one goes to bed hungry.",
+    "Price": "575"
+  },
+  {
+    "Picture": "https://i.ibb.co/yyvBZ6N/hands-holding-paper-heart-blue-background-donation-wellness-world-heart-day-world-health-day-happy-v.jpg",
+    "Title": "Wellness for All",
+    "Category": "Health",
+    "Category_bg": "#0052FF",
+    "Card_bg": "#0052FF15",
+    "Text_bg": "#0052FF",
+    "Description": "Join us in promoting well-being. Your donations enable us to offer health services and preventive care to vulnerable individuals.",
+    "Price": "545"
+  },
+  {
+    "Picture": "https://i.ibb.co/wM3z1pQ/Why-should-you-donate-to-the-education-of-impoverished-children.jpg",
+    "Title": "Learning Opportunities",
+    "Category": "Education",
+    "Category_bg": "#FF444A20",
+    "Card_bg": "#FF444A15",
+    "Text_bg": "#FF444A",
+    "Description": "Create opportunities for learning. Help us provide classrooms, teachers, and resources for disadvantaged students.",
+    "Price": "967"
+  },
+  {
+    "Picture": "https://i.ibb.co/yRmFHqm/final-logo.png",
+    "Title": "Threads of Kindness",
+    "Category": "Clothing",
+    "Category_bg": "#79C23F20",
+    "Card_bg": "#79C23F15",
+    "Text_bg": "#79C23F",
+    "Description": "Weave a safety net with clothing donations. Your support provides clothing essentials to those facing hardship.",
+    "Price": "432"
+  },
+  {
+    "Picture": "https://i.ibb.co/pxDckdw/poster-board-IMG-1950.jpg",
+    "Title": "Feeding Hope",
+    "Category": "Food",
+    "Category_bg": "#F8714720",
+    "Card_bg": "#F8714715",
+    "Text_bg": "#F87147",
+    "Description": "Spread hope through nourishment. Your support helps us serve hot meals and food assistance to vulnerable communities.",
+    "Price": "897"
+  }
+]
