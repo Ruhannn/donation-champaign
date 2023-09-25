@@ -4,21 +4,27 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Rooot from "./components/Rooot/Rooot";
 import Home from "./components/home/Home";
+import CardDetail from "./components/CardDetail/CardDetail";
+import { ToastContainer } from "react-toastify";
+import DonationList from "./DonationList/DonationList";
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Rooot></Rooot>, 
+    element: <Rooot></Rooot>,
     children: [
-      
       {
         path: "/",
-        element: <Home></Home>, 
+        element: <Home></Home>,
       },
       {
-        path: "donation",
+        path: "card/:id",
+        element: <CardDetail></CardDetail>,
       },
       {
-        path: "donation",
+        path: "/donation",
+        element: <DonationList></DonationList>,
+        loader: () => fetch('/data.json')
       },
       {
         path: "statistics",
@@ -30,5 +36,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <ToastContainer></ToastContainer>
   </React.StrictMode>
 );
