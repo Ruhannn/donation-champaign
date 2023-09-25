@@ -5,8 +5,6 @@ const getStoredDonationApplication = () =>{
     }
     return [];
 }
-
-
 const saveDonationApplication = id =>{
     const storedDonationApplications = getStoredDonationApplication();
     const exists = storedDonationApplications.find(DonationId => DonationId === id);

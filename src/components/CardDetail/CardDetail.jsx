@@ -15,7 +15,7 @@ const CardDetail = () => {
       });
   }, [id]);
   const handleDonateClick = () => {
-    saveDonationApplication(id);
+    saveDonationApplication(parseInt(id));
     toast.success(`You have donated $${donation.Price}`, {
       position: "top-right",
       autoClose: 3000,
