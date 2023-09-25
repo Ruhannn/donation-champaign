@@ -7,6 +7,7 @@ import Home from "./components/home/Home";
 import CardDetail from "./components/CardDetail/CardDetail";
 import { ToastContainer } from "react-toastify";
 import DonationList from "./DonationList/DonationList";
+import Statistics from "./components/Statistics/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -24,10 +25,11 @@ const router = createBrowserRouter([
       {
         path: "/donation",
         element: <DonationList></DonationList>,
-        loader: () => fetch('/data.json')
+        loader: () => fetch("/data.json"),
       },
       {
-        path: "statistics",
+        path: "/statistics",
+        element: <Statistics></Statistics>,
       },
     ],
   },
@@ -36,6 +38,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    
     <ToastContainer></ToastContainer>
   </React.StrictMode>
 );
