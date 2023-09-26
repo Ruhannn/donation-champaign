@@ -6,13 +6,15 @@ import Rooot from "./components/Rooot/Rooot";
 import Home from "./components/home/Home";
 import CardDetail from "./components/CardDetail/CardDetail";
 import { ToastContainer } from "react-toastify";
-import DonationList from "./DonationList/DonationList";
 import Statistics from "./components/Statistics/Statistics";
+import DonationList from "./components/DonationList/DonationList";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Rooot></Rooot>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -38,7 +40,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-    
+
     <ToastContainer></ToastContainer>
   </React.StrictMode>
 );

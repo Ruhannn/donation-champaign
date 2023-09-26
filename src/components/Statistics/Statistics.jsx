@@ -30,17 +30,18 @@ const Statistics = () => {
     const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
     const x = cx + radius * Math.cos(-midAngle * (Math.PI / 180));
     const y = cy + radius * Math.sin(-midAngle * (Math.PI / 180));
-    return (
-      <text
-        x={x}
-        y={y}
-        fill="white"
-        textAnchor="middle"
-        dominantBaseline="central"
-      >
-        {`${(percent * 100).toFixed(0)}%`}
-      </text>
-    );
+    if (percent > 0) {
+      return (
+        <text
+          x={x}
+          y={y}
+          fill="white"
+          textAnchor="middle"
+          dominantBaseline="central">
+          {`${(percent * 100).toFixed(1)}%`}
+        </text>
+      );
+    }
   };
 
   return (
@@ -56,8 +57,7 @@ const Statistics = () => {
               label={renderCustomizedLabel}
               outerRadius={150}
               fill="#8884d8"
-              dataKey="value"
-            >
+              dataKey="value">
               {data.map((entry, index) => (
                 <Cell
                   key={`cell-${index}`}

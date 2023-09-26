@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { saveDonationApplication } from "../../Utility/Save";
+import Loading from "../Loading/Loading";
 const CardDetail = () => {
   const { id } = useParams();
   const [donation, setDonation] = useState(null);
@@ -22,7 +23,7 @@ const CardDetail = () => {
     });
   };
   if (donation === null) {
-    return <div>Loading...</div>;
+    return <Loading></Loading>
   }
   return (
     <div className="px-4 md:px-8 lg:px-32 py-3 container mx-auto">
