@@ -71,7 +71,7 @@ const Navbar = () => {
           {" "}
           <img
             href="/"
-            src="src\assets\Logo.png"
+            src="https://media.discordapp.net/attachments/1065689957525630997/1156155853737566298/mk98NpV.png?ex=6513f18b&is=6512a00b&hm=92e8ece8ef832fb4bcdcfa8bf9ef52257e5e694c255aa056a39ac803431efa06&=&width=189&height=54"
             width={150}
             alt="Website Logo"
           />
